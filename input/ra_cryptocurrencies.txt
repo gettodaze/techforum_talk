@@ -1,0 +1,163 @@
+    The idea that cryptocurrencies will disrupt traditional finance is a meme, not a certainty.
+
+    Cryptocurrencies are innovative, but to be disruptive they will need to overcome several difficult hurdles.
+
+    Rather than overcome these hurdles, cryptocurrency has morphed into a permanently speculative investment vehicle, for which disruption lives forever in the future.
+
+ “It is a peculiarity of man that he can only live by looking to the
+future – sub specie aeternitatis.”
+
+— Viktor E. Frankl, Man’s Search for Meaning
+
+Traditional finance has been the backbone of the world economy for centuries. Borrowing, lending, saving, investing, and transacting are all accomplished through infrastructure made possible by traditional financial institutions, namely, banks and central banks. These centralized institutions are more effective and efficient at providing financial products and services than any other system thus far proposed, and as a result, they have amassed immense corporate and political power. Yet, the chorus of cryptocurrency proponents' singing the song of decentralized alternatives has continued to grow louder. They claim that blockchain technology offers a disruptive, decentralized solution to problems with centralized, traditional finance. Is there merit to their claim?
+
+In this article I argue that the idea of cryptocurrencies’ disrupting the juggernaut of traditional finance is a meme, not a certainty. The Oxford English Dictionary (Oxford) defines meme as “an element of a culture or system of behavior that may be considered to be passed from one individual to another by nongenetic means, especially imitation.” We have all seen popular visual memes, pictures with white text over them shared on social media. Here, I will use meme to refer to a statement of belief that spreads through a community or society, such as “Bitcoin is the future” and “Crypto will disrupt traditional finance.” These memes, along with countless others, function as word-of-mouth marketing1 to entice speculative cryptocurrency investment. Unless otherwise noted, the term cryptocurrency refers to volatile tokens, such as BTC and ETH, and specifically excludes stablecoins, such as USDT and USDC, although they are technically cryptocurrencies as well.
+
+Undoubtedly, the blockchain technology that underpins cryptocurrencies has been innovative—but simply being innovative does not mean it will be disruptive. Blockchain technology has created new industries that coexist with established industries, including traditional finance. These new industries are dominated by speculation and memes.
+“
+
+The blockchain technology that underpins cryptocurrencies has been innovative—but simply being innovative does not mean it will be disruptive.”
+
+For these innovative crypto markets to transition away from speculation and memes and actually disrupt the traditional financial industry, they will need to overcome three problems. First, the profitability problem: disruption would be paradoxically unprofitable for cryptocurrency holders because speculation, the primary modality by which cryptocurrency investors profit, would decline. Second, the power problem: traditional financial institutions are powerful and heavily entrenched within business and politics; disrupting such an established industry is an arduous goal. Third, the crypto-community problem: the crypto community has transitioned from a grassroots community focused on disruptive utilization of blockchain to a speculation-centric community that encourages the belief in and evangelization of memes. I will elaborate on these problems and explain why they lead to a solution in which disruption is an event lodged permanently on the horizon. 
+Recent History
+
+Rewind the clock to a year ago when bitcoin mania was in full swing and disruption seemed inevitable. Elon Musk announced Tesla had bought $1.5 billion bitcoin for its balance sheet and would soon be accepting BTC for vehicle payment. Cathy Wood, the all-star growth manager with a large bitcoin position in her flagship fund, was predicting more companies would be adding bitcoin to their balance sheets along with nations’ adopting it as legal tender. Michael Saylor was borrowing billions of dollars to buy BTC as an investment for his company, MicroStrategy. The market was rife with whispers of an Amazon announcement. Ethereum and other cryptocurrencies were similarly making new all-time highs. The crypto revolution felt well underway.
+
+Fast forward to today. Tesla sold some of its bitcoin, and since Musk’s 2021 announcement, zero Teslas have been purchased with BTC. Wood’s ARK funds have fallen 50% or more from their February 2021 highs along with the price of bitcoin, from an all-time high of $68,700 in November 2021 to a recent low of $32,900, uncomfortably close to MicroStrategy’s break-even price of $30,200. The rumored Amazon announcement never materialized. The only nation to date that has adopted BTC as official legal tender is El Salvador, but so far adoption remains limited in favor of the other official currency, the US dollar, as the related BTC rollout has been met with skepticism, and Chivo, the government-sponsored BTC app, has been problematic (Vyas and Pérez, 2022, and Majcher, 2022). Buggy bitcoin apps have been around since the early days of BTC and can certainly disrupt the user’s day—surely this is not the “disruption” we have been promised.
+"Speculating" on the Future of Cryptocurrencies
+
+Although problems have arisen with utilizing cryptocurrencies as mediums of exchange, cryptocurrencies certainly have been wonderful vehicles for financial speculation. They are extremely volatile assets worth only what someone is willing to pay at any moment in time because they have no dividends or cash flows. Ascertaining their long-term value is difficult. This, in conjunction with having fixed supplies, largely explains their speculative allure. The natural question thus arises: Will cryptocurrencies ever grow out of their speculative phase and actually disrupt traditional finance?
+
+Oxford defines disruption as "radical change to an existing industry or market due to technological innovation." In the case of cryptocurrency disruption, radical change would include the decline in prominence of powerful financial institutions, such as national central banks, global banking institutions, and major financial center securities exchanges, concurrent with a rise in prominence of decentralized alternatives or replacements. Disruption would be achieved when peer-to-peer cryptocurrencies are used as mediums of exchange for everyday purchases at a scale that effectively reduces demand for government-issued fiat currency, even if fiat currency continues to be utilized as well. Another example of disruption would be increased use of DEXs (decentralized exchanges) to trade stocks using blockchain-based stock certificates. Other radical changes can be imagined.
+
+Cryptocurrencies are relatively new, innovative products that are enjoying high demand. By definition, disruptive technology is innovative, but innovative technology need not be disruptive. Distinguishing between innovation and disruption is crucial when making forecasts about the future of the technology, because the implications of the two are vastly different. Disruption implies a zero-sum game: winners win at the expense of losers. Think of ride-sharing apps winning at the expense of taxis, Amazon winning at the expense of bookstores (and more), Ford winning at the expense of the horse and buggy, and so forth— however, innovation need not be a zero-sum game, it can grow the entire pie.
+
+Although innovation via blockchain is a given, disruption is not. Three problems stand in the way of disruption: the profitability problem, the power problem, and the crypto-community problem. Let’s examine each of these problems in detail.
+The Profitability Problem
+
+Although trillions of dollars of value have already been successfully exchanged using public blockchains, meaningful disruption has yet to occur. The crux of the matter is that although blockchain technology is solid and disruption is possible, it is not profitable. Disruption is not profitable for traditional financial organizations or for governments, and paradoxically, and most importantly, it is not profitable for cryptocurrency holders themselves.
+
+But aren’t cryptocurrency holders betting on disruption? It is true that some forward thinkers are buying cryptocurrencies to speculate on blockchains’ disrupting traditional finance. Their theory is that if crypto is disruptive, value will move from traditional finance into cryptocurrencies, and these digital coins will increase in value.
+
+I see a disconnect: cryptocurrency investors care more about increasing the value of their holdings than ushering in a disruptive future. A truly disruptive future is not necessarily associated with higher prices. This is the profitability problem. We can better understand this problem through the exploration of an easy-to-understand crypto pricing model.
+
+Crypto Pricing Model
+
+In our simple crypto pricing model, the price of cryptocurrency is viewed as a function of “fair value” plus an avant-garde premium, a speculation premium, and a byzantine premium:
+
+Price = Fair Value + Avant-Garde Premium + Speculation Premium + Byzantine Premium
+
+I believe that while fair value would increase with disruption, the three premiums would decrease substantially more and result in lower prices.2 Let’s now take a look at each one.
+
+Fair value.
+Fair value is derived from the actual transactional utility that cryptocurrencies provide as mediums of exchange and is largely a function of the number of entities willing to spend or accept a given cryptocurrency as well as other fundamental concerns. While fair value should be greater in a post-disruption world than it is today (a larger network should increase fair value), the fair value is small compared to the three premiums. We have plenty of ways to send value and information over the internet without using a blockchain; very few people purchase cryptocurrencies for this purpose.
+
+Avant-garde premium.
+The avant-garde premium arises from the social utility associated with being a member of the experimental and innovative (i.e., avant-garde) crypto community as well as, for some, simply conspicuous consumption. In a disrupted future, however, cryptocurrency would be commonplace, no longer avant-garde, with crypto ownership void of its original cachet. The result would be a much diminished, potentially even zero, avant-garde premium.
+
+Speculation premium.
+The speculation premium can be thought of as a lottery ticket that provides the chance for a massive upside return, which is the main attraction for many cryptocurrency purchasers. Cryptocurrency prices are bid up during periods of speculative mania in anticipation of disruption at some later, unknown date, and a desire by investors to purchase ahead of that date. The speculation premium will likely decrease once disruption arrives, as investors will no longer have an appetite to bet on disruption in a post-disruption world. Investors are constantly looking to the future; they want to invest in the technology of the future, not the technology of the present.
+
+Crypto prices can quickly appreciate (and depreciate) with little to no change in the underlying fundamentals, supporting the conclusion that a large percentage of the price can be attributed to the speculation premium. I posit that changes in investor sentiment drive changes in the speculation premium and are similarly a large driver of cryptocurrency volatility. When sentiment is at positive extremes, the speculation premium is large—the lottery ticket is in high demand and as such is expensive. Similarly, when sentiment is at negative extremes, the speculation premium is low and the price is cheap. But in a post-disruption world, the speculation premium would likely approach zero as investors move on to speculate on the next big thing.
+ 
+
+Byzantine Premium
+The byzantine premium arises because of confusion around the apparent complexities of blockchain. (The appendix offers a straightforward explanation of blockchain for interested readers.)  Investors read confusing, jargon-laden articles and become convinced that smarter people than themselves are investing, so they should too. Simplicity does not inspire investment in the way that complexity does.
+ 
+
+A good understanding of blockchain does not support a byzantine premium. In a post-disruption world where cryptocurrencies and blockchain are commonplace and demystified, investors’ knowledge should increase and in turn reduce the byzantine premium. Said another way, uninformed investment will decrease. Therefore, in order to maintain and potentially increase the byzantine premium, it is in the interest of cryptocurrency investors to delay large-scale blockchain disruption indefinitely into the future, while continuing to make blockchain difficult to understand.
+
+Disincentives for Disruption to Protect Cryptos’ Speculative Potential
+
+Disincentives to disruption serve to protect and expand the three premiums. While the larger network/market in a post-disruption world should increase fair value, it will unlikely compensate for decreases in the three premiums, in particular, the speculation premium. 
+
+Great sums of money can be made from speculation if cryptos perpetually have the potential for disruption, but never actually disrupt anything. As a result, more time, money, and energy has been focused on the proliferation and strengthening of disruption memes versus actual work toward real disruption.
+
+With the benefit of hindsight, I estimate that this shift in focus began in 2014 or 2015. Around that time the “Bitcoin is a store of value” meme started to gain traction. Subsequently, the grassroots effort to get mom-and-pop stores to accept BTC as a medium of exchange ended. I believe this retreat was the beginning of the end of the threat to traditional financial institutions posed by cryptocurrencies.
+“
+
+Great sums of money can be made from speculation if cryptos perpetually have the potential for disruption, but never actually disrupt anything.”
+
+Then, in 2017, the addition of segregated witness (SegWit) to BTC and the decision to keep the block size capped at approximately 1 MB effectively killed BTC as a viable medium of exchange. SegWit was necessary in order for the layer-2 Lightning Network (LN) to be used for payments in the future. These technical details are outside the scope of this article, but the result was the proliferation of the meme that BTC is “digital gold,” a “savings technology,” something to hoard, rather than a disruptive medium of exchange which could disrupt central banks and fiat currency. Simultaneously, the meme that the Lightning Network would fix BTC’s transactional woes also spread. Five years later, LN is still barely operational, riddled with issues, and relatively unused in size and scope compared to standard BTC transactions (Naumenko, 2021, and Shinobi, 2021). BTC had the first-mover advantage but was unable to pull it off. Consequently, I assert that the window for crypto disruption has likely passed. 
+
+Speculative crypto manias (read: opportunities for massive returns) are underpinned by investors’ belief in large-scale disruption. But if large-scale disruption were to occur, speculation would end along with the profits driven by that speculation. The proverbial dog chasing its tail will have caught it—and that would end the speculation party. This is the profitability problem in a nutshell. Luckily for hodlers,1 disruption is a meme with a nearly infinite shelf life. Cryptocurrency prices will likely continue to increase as long as disruption remains a plausible eventuality, never a reality.
+The Power Problem
+
+In addition to overcoming the profitability problem, the second problem cryptocurrencies face in their quest to disrupt traditional finance is the power problem. For disruption to occur, cryptocurrencies must usurp power from institutions that have been around for hundreds of years. The Lindy Effect theorizes that many things “age in reverse,” which provides some intuition as to why a radical power shift, such as a crypto disruption, is difficult to pull off. Other major roadblocks in displacing long-held financial power include blockchain’s public nature and a suboptimal strategy undertaken by crypto advocates; I will elaborate on the these points further after exploring the implications of the Lindy Effect.
+
+The Lindy Effect, first theorized by Albert Goldman in his 1964 article "Lindy's Law" in The New Republic, states that the future life expectancy of some nonperishables, such as an idea, business, or technology, is proportional to its current age. Many authors have since written about the phenomenon, including Nassim Taleb in his 2012 book Antifragile: Things That Gain from Disorder. The concept can be viewed as building on Newton’s first law of motion, which states that “an object in motion tends to stay in motion, unless acted upon by an outside force.” The Lindy Effect offers an estimate of how much time will pass before an “outside force” acts upon an existing nonperishable to change its trajectory (or “kill” it).
+
+In January 2009, the genesis block on the bitcoin blockchain was mined into existence by Satoshi Nakamoto, officially kicking off the bitcoin project. The Lindy Effect suggests that because BTC has been around for 13 years, it should survive for another 13. With every year that passes without extinction, an additional year is added to BTC’s life expectancy. Taleb thinks of this as “aging in reverse.”
+
+Now, consider such nonperishables as the Federal Reserve, established in 1913, and the Bank of New York Mellon (the oldest bank in America), established in 1784. These entities, 109 and 238 years old, respectively, are often viewed as institutions ripe for cryptocurrencies to disrupt. As the meme goes, with cryptocurrency “You can be your own bank.” But from the Lindy perspective, these long-established organizations have an upper hand over Bitcoin and shorter-lived cryptocurrencies in the game of existence. Their life expectancies are 8.4 and 18.3 times longer, respectively, than bitcoin’s.
+
+Assume that BTC, the Federal Reserve, and the Bank of New York Mellon all survive another 100 years. Will the balance of power shift in crypto’s favor? One hundred year hence, the traditional institutions’ life expectancies would be only 1.8 and 3.0 times longer, respectively, than bitcoin’s. On the surface, this could appear to increase BTC’s chance for disruption, but it also could support coexistence. If we apply the Lindy Effect to the current coexistent relationship between cryptocurrency and traditional finance, we have good reason to assume this relationship will continue. At what point does the relationship become disruptive? Quite possibly, never.
+
+Next, the question must be asked: What is stopping TradFi (Traditional Finance) incumbents from upgrading their systems to utilize blockchain? Surely they have been working on such projects. If crypto disruption is truly a threat to the power and profitability of traditional finance, these institutions would not ignore the threat and willingly allow it to occur. The meme “Blockchain is permissionless” has some truth because blockchain is a public database (please see the appendix). But for hodlers dreaming of disruption, the public, permissionless nature of blockchain means that the well-capitalized financial institutions of today have access to these systems too.
+
+As I alluded to earlier, crypto advocates have adopted a suboptimal strategy in their quest for disruption: they are telling their enemy precisely what they intend to do. Sun Tzu, the ancient military strategist and author of The Art of War, advised “let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.” A modern-day meme originating from The Wire similarly advises that if “you come at the king, you best not miss.” From this perspective, the crypto-revolution appears decidedly unserious, lending support to my belief that the window for cryptocurrency disruption has likely passed.
+
+“Crypto will disrupt traditional finance” and “Bitcoin is the future” are powerful memes that have successfully encouraged people to buy bitcoin and other cryptocurrencies over the past 10+ years, yet the power of memes has hardly made a dent in the power of traditional finance. With this reality and the Lindy Effect in mind, there is no reason to assume cryptocurrency will “enter the future”— that is, become widely accepted and utilized as money, usurp power from powerful financial institutions and governments, and cease acting as speculative investments—anytime soon. 
+The Crypto-Community Problem
+
+Although the vision of Satoshi Nakamoto has yet to be fulfilled, it would be unfair to completely discount cryptocurrencies as nothing but vehicles for speculating on memes. Something very real and powerful is happening: the creation and growth of communities. This is the real power of memes, and this is where the crypto energy has been focused.
+
+Cryptocurrency communities bring together people with hopes and dreams of a better future through the advancement and application of blockchain technology—a better future for society as well as for the individual. In a world constantly debating the hierarchical importance of society versus the individual, the ability of these communities to attract people from both ideological perspectives is remarkable.
+
+Unfortunately, the rise of crypto communities has been a double-edged sword because they are centered on cryptocurrency speculation, rather than cryptocurrency usage. This was not the case when I first invested in BTC in 2013. At that time, the nascent community encouraged actual BTC use, from building and utilizing tipping bots on Reddit to convincing local donut shops to accept it as payment. BTC transaction fees in 2013 were less than a cent for any transaction size and with credit card fees at 2–3% plus flat fees for small amounts, merchants could theoretically save money by accepting BTC. If BTC caught on in a big way, it would likely appreciate in price given its fixed supply. This was the pitch. Over time, however, the pitch changed. BTC became promoted as “digital gold,” as an asset not intended for spending. In fact, Samson Mow, CTO of Blockstream, whose employees maintain Bitcoin Core, the main BTC codebase, has been on Twitter repeatedly encouraging Bitcoiners to use credit cards for purchases.3
+“
+
+If people believe cryptocurrencies are the future, and this gives them hope, a sense of community, and inspires investment, this is a golden goose. Disruption would kill the golden goose.”
+
+The words meme and mimic are derived from the Ancient Greek words mimeme and mimeisthai, meaning “something imitated” and “to imitate,” respectively. To be sure, imitation and mimicry are embodiments of human behavior. We mimic what we see others doing in nearly every dimension of life, from fashion to finance, language, politics, and more. “Monkey see, monkey do.” The early days of bitcoin presented the opportunity for bitcoin advocates to pave the way for bitcoin use to be mimicked, however, we have seen bitcoin and cryptocurrency speculation mimicked instead. This is the crypto-community problem. The crypto-community problem arose because the community became full of people who want crypto to be used, who want crypto to be disruptive, but who want to do very little to promote its actual use and disruption. Disruption is always on the distant horizon, in the future. Today “all you need to do is invest”—an easier sell than one requiring boots-on-the-ground grassroots activism.
+
+Although the crypto community is a liability for disruption, it is an asset for continued speculation. Viktor Frankl, the late Austrian psychologist and philosopher, astutely noted that humans can only live by looking to the future, and for many in the crypto community, crypto is the future. Bitcoin is the future. Ethereum is the future. For some hodlers, these statements are believed with every fiber of their being. Cryptocurrency communities promote the belief that a better life exists in the future for members by offering an escape from the hardships of current life. No wonder these communities have steadily grown in size, along with the price of cryptocurrencies.
+
+If people believe cryptocurrencies are the future, and this gives them hope, a sense of community, and inspires investment, this is a golden goose. Disruption would kill the golden goose. I would not bet on disruption happening anytime soon. 
+Place Your Bets
+
+What we can bet on, however, is that people will continue to bet on the price of cryptocurrencies. After all, they are excellent vehicles for speculation. Whereas speculation occurs in most markets, in cryptocurrency, speculation is the market.
+
+Memes have been powerful tools for enticing speculative cryptocurrency investment, but it would not be constructive to view this as a pejorative. Cryptocurrencies have a nearly $2 trillion market cap. It is unlikely this occurred through unsophisticated investment. In contrast, if financial markets are to be viewed through the lens of a Keynesian beauty contest in which market participants invest based on how they believe other market participants will invest, then “meme investors” might be consciously making rational investing decisions.
+
+Well-known cryptocurrencies have certainly been good investments thus far for unsophisticated retail investors and wealthy, well-connected venture capitalists alike. If you are considering becoming a cryptocurrency investor or if you already are, I encourage you to realize there is no requirement to drink the disruption Kool-Aid in order to invest. It is possible to profit from merely speculating on continued speculation.
+
+ 
+
+ 
+
+ 
+
+I appreciate the multiple conversations and suggestions from Campbell Harvey, who shares many but not all of the views expressed in this article. I am also grateful for helpful feedback from Chris Brightman, Katy Sherrerd, Christian Goulding, Forrest Henslee, and Kay Jaitly. 
+Appendix. Blockchain, DeFi, and the Byzantine Premium
+
+At its core, a blockchain is simply a public database—that said, there is nothing simple about constructing a functional, truly public read/write access database. Not until Bitcoin arrived in 2009 did the world witness the first working example of such a concept. The bitcoin blockchain, or database, primarily contains the BTC ledger, but unrelated text and images are stored there as well.
+
+Public goods inherently suffer from the tragedy of the commons, but through clever economic incentives blockchain tackles this problem to create reliably functional, public, digital database architecture. This remarkable feat of human ingenuity gave rise to digital scarcity, a previously unheard-of concept, which allowed for the creation of cryptocurrencies. But as exceptional as this is, the dispassionate reality is that blockchains are better viewed as nondescript infrastructure, merely digital plumbing for sending value or information over the internet. 
+
+Robust blockchain infrastructure is required for the realization of the powerful ideas behind decentralized finance (DeFi). Many ideas stemming from DeFi are already in use, including stablecoins (tokens that are pegged in value to fiat currencies) which solve problems related to cryptocurrency volatility. Additionally, crypto-collateralized borrowing and lending have emerged.
+
+DeFi investing is difficult for the average person. Bona fide DeFi investing requires building platforms that utilize smart contract code to facilitate advanced peer-to-peer blockchain transactions. Such an undertaking is challenging and is thus mostly practiced by deep-pocketed venture capitalists. As a quasi-proxy, investors who want to “invest in DeFi” end up purchasing volatile cryptocurrencies on blockchains with smart contract functionality, such as ETH, SOL, AVAX, and others. This contributes to the byzantine premium.
+
+Assuming that fees (denominated in ETH, SOL, and so on) to send value or information through digital pipes would be low in a post-disruption world, investors have no reason to bulk-buy cryptocurrency today in order to prepare for a decentralized future. To illustrate: a $1,000 investment in ETH in order to invest in DeFi likely equates to pre-purchasing 10,000 DeFi transactions, assuming a ten-cent USD transaction fee (denominated in ETH) for the average DeFi transaction in a post-disruption world. Effectively, the result is pre-paying for 27 years of transactions, assuming 1 transaction a day.
+
+It is possible for blockchain-native tokens (e.g., ETH) to simultaneously lose value and for DeFi to be disruptive to TradFi via the mass adoption of stablecoins and smart contracts. The 27 years’ worth of transactions could become 2.7 years’ worth, and the blockchain would function just the same. In a post-disruption world, people would purchase cryptocurrency like they purchase nearly every other consumable, either a little at a time or the exact amount they require immediately before consumption. A toll road is a good analogy: why prepay 27 years’ worth of tolls?
+
+Finally, many commentators have pointed out that fees on popular blockchains, such as BTC and ETH, are currently very high, orders of magnitude higher than the 10 cents I used as an example earlier. Yet, skeptics and advocates alike generally accept that low fees are required for disruption. While high fees could constitute a fourth problem in the way of disruption, I have given crypto proponents the benefit of the doubt that fees will eventually come down, rather than remain purposefully high with the intention of delaying disruption forever into the future.
+FEATURED TAGS
+Asset Allocation
+Alex Pickard
+RELATED CONTENT
+Learn More About the Author
+Alex Pickard, CFA
+Alex Pickard, CFA
+Vice President, Research
+Endnotes
+
+    Richard Dawkins, who coined the term meme, writes in his book The Selfish Gene (1976) that “when you plant a fertile meme in my mind you literally parasitize my brain, turning it into a vehicle for the meme's propagation in just the way that a virus may parasitize the genetic mechanism of a host cell” (p. 207).
+     Note that I am using the model as a conceptual framework to analyze why investors buy cryptocurrency today and what changes might occur in a post-disruption world. I will not be calculating exact dollar amounts for each building block.
+    In reply to a June 17, 2018, Bank for International Settlements tweet stating “Despite the hype, #cryptocurrencies like #bitcoin are not the answer to the increasing need for #DigitalPayments because of their volatile value,” Samson Mow wrote “What need? Digital payments are easy and options are abundant. Feel free to use credit cards, PayPal, Venmo, Alipay, WeChat Pay, Interac, KakaoPay, etc. #Bitcoin is the foundation of a new global financial system—don’t mistake it for a simple payments provider.” And in response to a May 20, 2019, question posed by Vijay Boyapti, “What is an unpopular opinion you have regarding #Bitcoin?” Samson Mow replied, “Credit cards are more practical for spending. ☺”
+ 
+  
+ 
+
