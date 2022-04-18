@@ -1,3 +1,5 @@
 __pycache__/
 output/
 core/config.py
+jisho.log
+lists.json
