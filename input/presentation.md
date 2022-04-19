@@ -19,7 +19,7 @@ def main():
     while True:
         user_input = input("log: ")
         log = f"{datetime.now()} - {user_input}"
-        with open(OUTPATH, mode="a+") as f:
+        with open(OUTPATH, mode="a") as f:
             f.write(f"{log}\n")
         print(log)
 
