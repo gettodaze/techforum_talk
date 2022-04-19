@@ -1,31 +1,29 @@
-NOTEBOOK notebooks/yu_notebook.ipynb
-# Singular Value Decomposition
-NOTEBOOK_SUBSLIDE notebooks/john_notebook.ipynb
-# Results
-_OUTPUTS simple_100
-## ![my image](images/simple_100/gif_subimages/1_components.png)
-## ![my image](images/simple_100/gif_subimages/2_components.png)
-## ![my image](images/simple_100/gif_subimages/3_components.png)
-_OUTPUTS simple
-## ![my image](images/simple/gif_subimages/1_components.png)
-## ![my image](images/simple/gif_subimages/3_components.png)
-## ![my image](images/simple/gif_subimages/5_components.png)
-_OUTPUTS eyes
-## ![my image](images/eyes/gif_subimages/1_components.png)
-## ![my image](images/eyes/gif_subimages/2_components.png)
-## ![my image](images/eyes/gif_subimages/4_components.png)
-_OUTPUTS lstsq
-## ![my image](images/lstsq/gif_subimages/1_components.png)
-## ![my image](images/lstsq/gif_subimages/3_components.png)
-## ![my image](images/lstsq/gif_subimages/5_components.png)
-# Conclusion
-- Simple works decently
-- Eyes and Least Squares give much better eigenfaces
-- The number of components needed to account for all the noise stays consistent
-## Simple, Eyes, LSTSQ
-## ![my image](images/simple/gif_subimages/107_components.png)
-## ![my image](images/eyes/gif_subimages/100_components.png)
-## ![my image](images/lstsq/gif_subimages/100_components.png)
-# Future Directions
-- Use distance from each eigenvector as labels to train a model that would then classify cats into prospective types (to decompose our own cats)
-- Use clustering to cluster groups of cats in the first few PCA dimensions and fine commonalities
+# My Title
+- John McCloskey
+# Intro
+Hi everyone, and welcome to my talk. I'm John McCloskey and I am on a mission to get all of you to consider using python in your everyday lives. For the non-programmers out there, I know you might think, but I don't know programming, and besides where would I ever have the opportunity to use python in my every day life? I have two answers to that.
+1) It's simpler than you might expect!
+2) Let us go through some examples of where you might want to use python.
+# Use Case 1:
+- Imagine, you are sitting at your desk at research affiliates. It's time for morning standup and you need to have a progress report from yesterday. For that specific purpose, you have a log you keep track of:
+![example_log](images/example_log.png)
+- You realize you actually spend a lot of your time writing the time! If only you could easily make note of writing what you're doing, without having to figure out what time it is and write it out. It will probably save you at least 30 minutes a week.
+- But you can't find the exact program that fits your needs! Well, Python can do that for you:
+## Basic Time Logger
+CODE
+from datetime import datetime
+
+OUTPATH = "/home/mccloskey/src/john/techforum_webscraping/output/my_logs.txt"
+
+def main():
+    while True:
+        user_input = input("log: ")
+        log = f"{datetime.now()} - {user_input}"
+        with open(OUTPATH, mode="a+") as f:
+            f.write(f"{log}\n")
+        print(log)
+
+
+if __name__ == "__main__":
+    main()
+END

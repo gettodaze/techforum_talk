@@ -112,25 +112,6 @@ class Notebook:
                 code_block.append(f"{line}\n")
                 continue
 
-            if flag == "_OUTPUTS":
-                path = Path("images", line[len("_OUTPUTS ") :])
-
-                self.add_cell_markdown(f"# {path.stem}", slide_type=SlideType.SLIDE)
-                for fn in [
-                    "sample_processed_images.png",
-                    "eigenfaces.png",
-                    "Principle Components.png",
-                    "iterative_components.gif",
-                ]:
-                    full_path = path / fn
-                    self.add_cell_markdown(
-                        [
-                            f"## {path.stem}: {full_path.stem}\n",
-                            f"""<center><img src="{full_path}"></center>\n""",
-                        ],
-                        slide_type=SlideType.SUBSLIDE,
-                    )
-                continue
             if flag == "NOTEBOOK_SUBSLIDE":
                 path = Path(line[len("NOTEBOOK_SUBSLIDE ") :])
                 self.add_jupyter_cells(path, slide_type=SlideType.SUBSLIDE)
@@ -193,9 +174,9 @@ class Notebook:
 
 
 if __name__ == "__main__":
-    outpath = Path("notebooks/final_notebook.ipynb")
+    outpath = Path("presentation/final_notebook.ipynb")
     nb = Notebook()
-    nb.add_markdown_cells("sketch/mccloskey/presentation.md")
+    nb.add_markdown_cells("input/presentation.md")
     # nb.postprocess_outline(3)
     print(nb.save(outpath))
     print(
