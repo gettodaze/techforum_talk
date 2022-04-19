@@ -109,3 +109,71 @@ END
 ## And this file is put in "2022 April":
 ![bounces_on_floor_example](images/bounces_on_floor_example.png)
 # Use Case 3: Using an API
+- I often times use a site called jisho.org
+![jisho_homepage](images/jisho_homepage.png)
+## Given a word or phrase, it looks up relevant Japanese/English words:
+![jisho_search](images/jisho_search.png)
+## But they didn't have lists like this my favorite iOS app:
+![imiwa_list_example](images/imiwa_list_example.png)
+## So I had always dreamed of building my own, and then I learned I could easily with python!
+- Jisho provides an API:
+![jisho_api_firefox](images/jisho_api_firefox.png)
+## This can be easily accessed with Requests:
+CODE
+from __future__ import annotations
+import json
+
+import requests
+import typing as tp
+
+BASE_URL = "https://jisho.org/api/v1/search"
+
+def call_api(keyword: str) -> dict[str, tp.Any]:
+    response = requests.get(f"{BASE_URL}/words?keyword={keyword}")
+    response.raise_for_status()
+    return response.json()
+
+
+def main() -> None:
+    keyword = input("Keyword? ")
+    print(json.dumps(call_api(keyword), indent=2))
+
+
+if __name__ == "__main__":
+    main()
+END
+## This results in the same information being available with Python:
+![jisho_1](images/jisho_1.png)
+## And now we can work on iteratively parsing it out:
+CODE
+JsonT = tp.Dict[str, tp.Any]
+SenseT = tp.Dict[str, tp.List[str]]
+
+def num_to_letter(num: int) -> str:
+    return chr(num + 64)
+
+
+def get_english_definitions(senses: tp.Iterable[SenseT]) -> tp.Dict[int, str]:
+    eng_definitions = {}
+    for i, sense in enumerate(senses, 1):
+        eng_definitions[i] = ", ".join(sense["english_definitions"])
+    return eng_definitions
+
+def parse_entry(entry: JsonT) -> JsonT:
+    new_entry = {
+        "definitions": get_english_definitions(entry["senses"]),
+        "entry": entry["japanese"],
+    }
+    return new_entry
+
+def parse_response(response_json: JsonT) -> JsonT:
+    data = response_json["data"]
+    parsed_response = {}
+    for i, entry in enumerate(data, 1):
+        parsed_response[num_to_letter(i)] = parse_entry(entry)
+    return parsed_response
+END
+## ![jisho_2](images/jisho_2.png)
+## And then ultimately, we can end up with a full command line app:
+## ![og_jisho](images/og_jisho.png)
+## ![og_jisho_2](images/og_jisho_2.png)

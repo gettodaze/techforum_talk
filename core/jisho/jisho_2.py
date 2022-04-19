@@ -6,34 +6,34 @@ import typing as tp
 
 BASE_URL = "https://jisho.org/api/v1/search"
 JsonT = tp.Dict[str, tp.Any]
+SenseT = tp.Dict[str, tp.List[str]]
 
 
-def num_to_letter(num):
+def num_to_letter(num: int) -> str:
     return chr(num + 64)
 
 
-def strip_senses(senses):
-    ret = {}
-    for i, sense in enumerate(senses):
-        tdef = ", ".join(sense["english_definitions"])
-        ret[i + 1] = tdef
-    return ret
+def get_english_definitions(senses: tp.Iterable[SenseT]) -> tp.Dict[int, str]:
+    eng_definitions = {}
+    for i, sense in enumerate(senses, 1):
+        eng_definitions[i] = ", ".join(sense["english_definitions"])
+    return eng_definitions
 
 
-def strip_entry(entry):
+def parse_entry(entry: JsonT) -> JsonT:
     new_entry = {
-        "senses": strip_senses(entry["senses"]),
+        "definitions": get_english_definitions(entry["senses"]),
         "entry": entry["japanese"],
     }
     return new_entry
 
 
-def resp_to_dict(response_json: JsonT) -> dict[str, dict[str, str]]:
-    ret = {}
+def parse_response(response_json: JsonT) -> JsonT:
     data = response_json["data"]
-    for i, entry in enumerate(data):
-        ret[num_to_letter(i + 1)] = strip_entry(entry)
-    return ret
+    parsed_response = {}
+    for i, entry in enumerate(data, 1):
+        parsed_response[num_to_letter(i)] = parse_entry(entry)
+    return parsed_response
 
 
 def call_api(keyword: str) -> JsonT:
@@ -46,7 +46,7 @@ def main() -> None:
     keyword = input("Keyword? ")
     response_json = call_api(keyword)
 
-    print(json.dumps(resp_to_dict(response_json), indent=2))
+    print(json.dumps(parse_response(response_json), indent=2))
 
 
 if __name__ == "__main__":
