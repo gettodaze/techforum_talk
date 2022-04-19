@@ -106,8 +106,10 @@ END
 ![jisho_homepage](images/jisho_homepage.png)
 ## Given a word or phrase, it looks up relevant Japanese/English words:
 ![jisho_search](images/jisho_search.png)
-## But they didn't have lists like this my favorite iOS app:
+## But they didn't have lists like this my dictionary:
 ![imiwa_list_example](images/imiwa_list_example.png)
+##
+- But my favorite dictionary was only on iOS and I switched to using an Android phone! I needed a replacement dictionary with lists, and I found I could make one as a command line app on my computer
 ## So I had always dreamed of building my own, and then I learned I could easily with python!
 - Jisho provides an API:
 ![jisho_api_firefox](images/jisho_api_firefox.png)
