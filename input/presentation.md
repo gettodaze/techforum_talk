@@ -27,3 +27,9 @@ def main():
 if __name__ == "__main__":
     main()
 END
+![log_output](images/log_output.png)
+# Use Case 2:
+- Imagine you now have a bunch of images, and you need to organize them!
+![bad_images_nautilus](images/bad_images_nautilus.png)
+- You could do this by hand, but if you have hundreds of images, that could take a long time.
+## You can write a simple program to do make this a lot easier
