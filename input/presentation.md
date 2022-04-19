@@ -42,7 +42,6 @@ from PIL import Image
 input_path = Path("input")
 output_path = Path("output")
 END
-
 ## Main Loop:
 CODE
 for path in input_path.iterdir():
@@ -74,4 +73,39 @@ for path in input_path.iterdir():
 END
 ## Example:
 ![renaming_springrolls](images/renaming_springrolls.png)
+## Extending further:
+- The joy of this, is that we can keep adding features. Suppose we want to sort each image by month. It turns out, that data is embedded in the image and we just need to access it.
+- A quick google search shows that this can be done with the PIL library, using:
+CODE
+Image.open(path).getexif()
+# {296: 2, 282: 72.0, 256: 4000, 257: 1824, 34853: 788, 34665: 240, 271: 'OnePlus', 
+# 272: 'GM1917', 305: 'Picasa', 274: 1, 306: '2022:04:14 09:53:28', 530: (2, 2), 
+# 531: 1, 283: 72.0}
+END
+## So we can write a quick function to extract and parse the entry for 306
+CODE
+def extract_month(image: Image.Image) -> typing.Optional[str]:
+    metadata = image.getexif()
+    if 306 not in metadata:
+        return None
+    timestamp_text = metadata[306]
+    try:
+        timestamp = datetime.strptime(timestamp_text, "%Y:%m:%d %H:%M:%S")
+    except ValueError:
+        return None
 
+    return timestamp.strftime("%Y %B")
+END
+## And then plug that back into the main loop
+CODE
+month = extract_month(image)
+while True:
+    month_path = output_path if month is None else output_path / month
+    month_path.mkdir(parents=True, exist_ok=True)
+    new_name = input(f"Current name: {path.stem}.\nNew name? ")
+    new_path = month_path / f"{new_name}{path.suffix}"
+    ...
+END
+## And this file is put in "2022 April":
+![bounces_on_floor_example](images/bounces_on_floor_example.png)
+# Use Case 3: Using an API
