@@ -24,25 +24,33 @@ def html_to_chapter(html_path: Path) -> epub.EpubHtml:
     return epub.EpubHtml(title=title, content=content, file_name=fname)
 
 
-def main(input_path: Path, output_suffix: str = "") -> Path:
+def main(input_paths: tp.Iterable[Path], title: str) -> Path:
     # make chapter
-    chapter = html_to_chapter(input_path)
+    chapters = [html_to_chapter(path) for path in input_paths]
 
     # make book
     book = epub.EpubBook()
-    book.add_item(chapter)
-    book.spine = [chapter]
+    book.spine = ["nav"] + chapters
+    for c in chapters:
+        book.add_item(c)
+    book.toc = ((epub.Section(title), chapters),)
+    # add default Nav file
+    book.add_item(epub.EpubNav())
 
     # write book
     OUTPUT_DIR.mkdir(exist_ok=True)
-    output_path = OUTPUT_DIR / f"{chapter.title}{output_suffix}.epub"
+    output_path = OUTPUT_DIR / f"{title}.epub"
     epub.write_epub(output_path, book)
 
     return output_path
 
 
 if __name__ == "__main__":
-    input_path = (
-        INPUT_DIR / "Cryptocurrencies The Power of Memes | Research Affiliates.html"
-    )
-    print(main(input_path=input_path, output_suffix=" Parse Suffix"))
+    input_paths = [
+        INPUT_DIR / fn
+        for fn in (
+            "Cryptocurrencies The Power of Memes | Research Affiliates.html",
+            "ESG Is a Preference, Not a Strategy | Research Affiliates.html",
+        )
+    ]
+    print(main(input_paths=input_paths, title="RA Publication Chapters"))
