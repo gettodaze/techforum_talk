@@ -117,6 +117,7 @@ class TaskList(list):
 
 log_path = Path("output/hourly_out.txt")
 TODOS_PATH = Path("output/todos.json")
+log_path.touch(exist_ok=True)
 accrued_logs = []
 # todos = TaskList.from_json()
 # breakpoint()
@@ -145,8 +146,8 @@ def get_last_day():
         lines = f.readlines()
     for i in range(len(lines) - 1, 0, -1):
         if lines[i].startswith("-----"):
-            break
-    return lines[i - 1 :]
+            return lines[i - 1 :]
+    return ""
 
 
 def print_last_day():
@@ -154,12 +155,7 @@ def print_last_day():
 
 
 def open_logs(only_hourly_out=False):
-    if only_hourly_out:
-        files = ["hourly_out.txt"]
-    else:
-        files = [r"Notes", r"Daily\ Log", "hourly_out.txt"]
-    for fname in files:
-        os.system(f"xdg-open /home/mccloskey/Desktop/{fname}")
+    os.system(f"xdg-open {log_path}")
 
 
 def format_meeting(description):
