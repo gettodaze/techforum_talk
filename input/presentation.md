@@ -120,7 +120,6 @@ END
 ![jisho_api_firefox](images/jisho_api_firefox.png)
 ## This can be easily accessed with Requests:
 CODE
-from __future__ import annotations
 import json
 
 import requests
