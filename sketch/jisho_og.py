@@ -216,7 +216,7 @@ class Jisho:
             folder = "exports"
             if not os.path.exists("exports"):
                 os.makedirs("exports")
-        path = "{self.cur_list}_jisho_export.txt"
+        path = f"output/{self.cur_list}_jisho_export.txt"
         cur_list_dict = self.lists[self.cur_list]
         with open(path, "w+", encoding="utf-8") as outfile:
             content = "~".join([toline(e) for e in cur_list_dict])
