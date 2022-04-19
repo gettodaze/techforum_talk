@@ -5,8 +5,8 @@ import subprocess
 from PIL import Image
 from datetime import datetime
 
-input_path = Path("/home/mccloskey/src/techforum_webscraping/input")
-output_path = Path("/home/mccloskey/src/techforum_webscraping/output")
+input_path = Path("/home/mccloskey/src/techforum_talk/input")
+output_path = Path("/home/mccloskey/src/techforum_talk/output")
 
 for path in input_path.iterdir():
     image = Image.open(path)

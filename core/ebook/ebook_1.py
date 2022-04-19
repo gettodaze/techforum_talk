@@ -7,8 +7,8 @@ from requests import Response
 import bs4
 from pathlib import Path
 
-OUTPUT_DIR = Path("/home/mccloskey/src/john/techforum_webscraping/output")
-INPUT_DIR = Path("/home/mccloskey/src/john/techforum_webscraping/input")
+OUTPUT_DIR = Path("/home/mccloskey/src/john/techforum_talk/output")
+INPUT_DIR = Path("/home/mccloskey/src/john/techforum_talk/input")
 
 
 def main(title: str, input_path: Path) -> Path:
