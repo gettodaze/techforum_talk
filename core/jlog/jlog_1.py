@@ -1,6 +1,6 @@
 from datetime import datetime
 
-OUTPATH = "/home/mccloskey/src/john/techforum_talk/output/my_logs.txt"
+OUTPATH = "output/my_logs.txt"
 
 
 def main():
