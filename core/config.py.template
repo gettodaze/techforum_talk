@@ -1,2 +1,8 @@
+from pathlib import Path
+
+
 class Config:
-    EMAIL = ""
+    INPUT = Path("input")
+    INPUT.mkdir(exist_ok=True)
+    OUTPUT = Path("output")
+    OUTPUT.mkdir(exist_ok=True)

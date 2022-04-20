@@ -4,7 +4,31 @@
 Hi everyone, and welcome to my talk. I'm John McCloskey and I am on a mission to get all of you to consider using python in your everyday lives. For the non-programmers out there, I know you might think, but I don't know programming, and besides where would I ever have the opportunity to use python in my every day life? I have two answers to that.
 1) It's simpler than you might expect!
 2) Let us go through some examples of where you might want to use python.
-# Use Case 1:
+## Preface
+- Throughout this talk, we'll be using some new packages. Just a note that if you're using the RA Platform, please create a new environment before installing any extra packages. Installing a package may update other packages in the RA Platform and cause code failures.
+CODE
+12:53:37 (.env38) ~$ python
+Python 3.8.12 (default, Mar 31 2022, 09:39:09) 
+[GCC 7.5.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+12:54:11 (.env38) ~$ python -m venv .env-my_new_venv
+12:54:34 (.env38) ~$ source .env-my_new_venv/bin/activate
+(.env-my_new_venv) mccloskey@is-mccloskey-p1:~$ pip install ...
+END
+- Otherwise, please ignore
+# Outline
+- Daily Activity Helper
+  - input, datetime
+- Bulk Image Organizer
+  - shutil, PIL, pathlib
+- Jisho API
+  - requests, JSON
+- EBook Writer
+  - ebooklib, HTML
+- Presentation Maker
+  - ipynb files, nbconvert
+# Use Case 1: Daily Activity Helper
 - Imagine, you are sitting at your desk at Research Affiliates. It's time for morning standup and you need to have a progress report from yesterday. For that specific purpose, you have a log you keep track of:
 ![example_log](images/example_log.png)
 - You realize you actually spend a lot of your time writing the time! If only you could easily make note of writing what you're doing, without having to figure out what time it is and write it out. It will probably save you at least 30 minutes a week.
