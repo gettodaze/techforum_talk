@@ -3,3 +3,4 @@ output/
 core/config.py
 jisho.log
 lists.json
+.~lock*
