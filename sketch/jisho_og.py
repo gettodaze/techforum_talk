@@ -1,7 +1,11 @@
+from pathlib import Path
 from core.jisho import utils
 import datetime
 import logging
 import os
+
+OUTPUT_DIR = Path("output/jisho")
+OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 
 class Jisho:
@@ -21,7 +25,7 @@ class Jisho:
         self.handle_print(f"Welcome to John's Jisho. Type .h for help.", logging.debug)
         self.cur_word = {}
         self.prev_word = {}
-        self.json_path = json_path or "lists.json"
+        self.json_path = json_path or OUTPUT_DIR / "lists.json"
         self.lists = utils.read_json(self.json_path)
         self.cur_list = self.lists[Jisho._DEFAULT_LIST]
         self.display_num = self.lists[Jisho._DISPLAY_NUM]
@@ -216,7 +220,7 @@ class Jisho:
             folder = "exports"
             if not os.path.exists("exports"):
                 os.makedirs("exports")
-        path = f"output/{self.cur_list}_jisho_export.txt"
+        path = OUTPUT_DIR / f"{self.cur_list}_jisho_export.txt"
         cur_list_dict = self.lists[self.cur_list]
         with open(path, "w+", encoding="utf-8") as outfile:
             content = "~".join([toline(e) for e in cur_list_dict])
@@ -239,7 +243,8 @@ letter+number combo: save word-sense pair to list."""
 
 def main():
     logging.basicConfig(
-        handlers=[logging.FileHandler("jisho.log", "a+", "utf-8")], level=logging.DEBUG
+        handlers=[logging.FileHandler(OUTPUT_DIR / "jisho.log", "a", "utf-8")],
+        level=logging.DEBUG,
     )
     j = Jisho()
     cont = True

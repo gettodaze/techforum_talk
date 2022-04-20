@@ -10,6 +10,9 @@ from functools import partial
 from bisect import insort_right
 from itertools import count
 
+OUTPUT_DIR = Path("output/timelog")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 # json utils ------------------------------------------------
 class TaskJSONEncoder(json.JSONEncoder):
     def default(self, o):  # pylint: disable=E0202
@@ -26,7 +29,7 @@ class TaskJSONDecoder(json.JSONDecoder):
         return Task(**d)
 
 
-JSON_PATH = Path("output/hourly_test.json")
+JSON_PATH = OUTPUT_DIR / "hourly_test.json"
 
 # misc utils --------------------------------------
 
@@ -115,8 +118,8 @@ class TaskList(list):
         insort_right(self, task)
 
 
-log_path = Path("output/hourly_out.txt")
-TODOS_PATH = Path("output/todos.json")
+log_path = OUTPUT_DIR / "hourly_out.txt"
+TODOS_PATH = OUTPUT_DIR / "todos.json"
 log_path.touch(exist_ok=True)
 accrued_logs = []
 # todos = TaskList.from_json()
