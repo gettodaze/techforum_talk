@@ -3,8 +3,8 @@ import shutil
 from PIL import Image
 
 input_path = Path("input")
-output_path = Path("output")
-output_path.mkdir(exist_ok=True)
+output_path = Path("output/images_0")
+output_path.mkdir(exist_ok=True, parents=True)
 
 for path in input_path.iterdir():
     if path.suffix != ".jpg":

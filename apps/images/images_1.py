@@ -3,7 +3,8 @@ import shutil
 from PIL import Image
 
 input_path = Path("input")
-output_path = Path("output")
+output_path = Path("output/images_1")
+output_path.mkdir(parents=True, exist_ok=True)
 
 for path in input_path.iterdir():
     if path.suffix != ".jpg":
@@ -12,7 +13,6 @@ for path in input_path.iterdir():
     # subprocess.run(["code", path]) # for WSL, open in vscode server
     image.show()  # for Windows/Linux/Mac
     while True:
-        output_path.mkdir(parents=True, exist_ok=True)
         new_name = input(f"Current name: {path.stem}.\nNew name? ")
         new_path = output_path / f"{new_name}{path.suffix}"
 
