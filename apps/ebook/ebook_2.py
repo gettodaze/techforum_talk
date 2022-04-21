@@ -1,14 +1,10 @@
 from __future__ import annotations
 
 from ebooklib import epub
-import typing as tp
-import requests
-from requests import Response
-import bs4
 from pathlib import Path
 
-OUTPUT_DIR = Path("/home/mccloskey/src/john/techforum_talk/output")
-INPUT_DIR = Path("/home/mccloskey/src/john/techforum_talk/input")
+OUTPUT_DIR = Path("output")
+INPUT_DIR = Path("input")
 
 
 def main(title: str, input_path: Path) -> Path:

@@ -46,7 +46,7 @@ def main() -> None:
     keyword = input("Keyword? ")
     response_json = call_api(keyword)
 
-    print(json.dumps(parse_response(response_json), indent=2))
+    print(json.dumps(parse_response(response_json), indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
