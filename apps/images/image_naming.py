@@ -9,7 +9,7 @@ from datetime import datetime
 input_path = Path("input")
 output_path = Path("output")
 
-
+# we want (year, month), like 2022 April
 def extract_month(image: Image.Image) -> typing.Optional[str]:
     metadata = image.getexif()
     if 306 not in metadata:
@@ -28,11 +28,12 @@ for path in input_path.iterdir():
         continue
     image = Image.open(path)
     subprocess.run(["code", path])  # for WSL, open in vscode server
-    month = extract_month(image)
     # image.show() # for Windows/Linux/Mac
+
+    month = extract_month(image)
+    month_path = output_path if month is None else output_path / month
+    month_path.mkdir(parents=True, exist_ok=True)
     while True:
-        month_path = output_path if month is None else output_path / month
-        month_path.mkdir(parents=True, exist_ok=True)
         new_name = input(f"Current name: {path.stem}.\nNew name? ")
         new_path = month_path / f"{new_name}{path.suffix}"
 
