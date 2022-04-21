@@ -150,7 +150,7 @@ def get_last_day():
     for i in range(len(lines) - 1, 0, -1):
         if lines[i].startswith("-----"):
             return lines[i - 1 :]
-    return ""
+    return [""]
 
 
 def print_last_day():

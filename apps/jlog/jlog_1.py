@@ -1,6 +1,6 @@
 from datetime import datetime
 
-OUTPATH = "output/my_logs.txt"
+OUTPATH = "output/my_logs_1.txt"
 
 
 def main():
